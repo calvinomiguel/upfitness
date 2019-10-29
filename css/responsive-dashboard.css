@@ -1,0 +1,186 @@
+@media all and (max-width: 1023px) {
+    .nutrition-filter {
+        flex-wrap: wrap;
+    }
+
+    .dropdown {
+        max-width: 100%;
+    }
+
+    .filter {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1060px) {
+    body {
+        flex-wrap: wrap;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .main {
+        min-height: 100vh;
+        height: auto;
+        width: 100%;
+        padding: 45px;
+        overflow-y: hidden;
+    }
+
+    .responsive-nav {
+        display: block;
+        padding: 14.4px 36px;
+        width: 100%;
+    }
+
+    .logo-link {
+        margin: 0;
+        display: block;
+    }
+
+    .nav-list {
+        width: auto;
+    }
+
+    .nav-list li {
+        display: inline-block;
+        padding: 0 0 0 14.4px;
+    }
+
+    .nav-list li .log-out {
+        color: #1999a9;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        padding: 2.7px 27px;
+        border-radius: 35px;
+        border: 2px solid #1999a9;
+    }
+
+    .nav-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*NUTRITION & ROUTINES*/
+    .post-wrapper {
+        width: calc(97% / 2);
+    }
+
+}
+
+@media all and (max-width: 1023px) {
+    .dropdown {
+        max-width: 100%;
+    }
+
+    .nutrition-filter {
+        flex-wrap: wrap;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .responsive-filter {
+        display: block;
+        width: 100%;
+        height: 45px;
+        border-radius: 2px;
+        margin-top: 9px;
+        background: #f5f5f5;
+        border: none;
+    }
+}
+
+@media all and (max-width: 602px) {
+
+    .nav-list {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 21px;
+        padding: 0;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .post-wrapper {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 503px) {
+    .responsive-nav {
+        padding: 14.4px 18px;
+    }
+
+    .main {
+        padding: 45px 18px;
+    }
+
+    .menu-wrapper {
+        background: #fff;
+        padding: 14.4px 18px;
+    }
+}
+
+@media all and (max-width: 494px) {
+    .form-filter {
+        background: #fff;
+        border-radius: 0;
+        max-width: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .apply-filter {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+    }
+}
+
+@media all and (max-height: 579px) {
+    .form-filter {
+        padding: 0;
+    }
+
+    .form-filter-wrapper {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+        padding: 45px 27px;
+    }
+
+    .scroll-wrapper {
+        height: calc(100% + 108px);
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 404px) {
+    .data-wrapper {
+        width: 100%;
+    }
+
+    .account {
+        justify-content: flex-end;
+    }
+
+    .form-button {
+        margin-top: 18px;
+    }
+
+    .cancel{
+        margin-right: 14.4px;
+    }
+}

@@ -1,0 +1,203 @@
+@import url("https://use.typekit.net/hde2zqg.css");
+
+h1, h2, h3, h4, h5, h6, p, .field-choice,
+.log-out, .subscribe-field, .err-message, .success,
+.nav-list li button, .nav-list li a, .in-cta,
+.out-cta, .next-btn, .previous-btn, .login-btn,
+.reset-btn, .back-btn, .page-counter, .footer-nav-list li a,
+.footer-wrapper span, .forgot-password, .dash-label,
+.input-data, .navigators, .delete-account,
+.filter-label, .apply-filter, .health-indicator-wrapper span,
+.form-button, .responsive-menu ul li a, .responsive,
+.category, input, li {
+    font-family: europa, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-style: normal;
+    color: #232323;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h5, input {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+p, .field-choice, li {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4A4A4A;
+}
+
+.log-out {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #BABABA;
+    text-decoration: none;
+}
+
+.subscribe-field {
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.err-message, .success {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-list li button, .nav-list li a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #232323;
+}
+
+.in-cta, .out-cta, .next-btn, .previous-btn, .login-btn, .reset-btn,
+.back-btn {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.page-counter {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #BABABA;
+}
+
+.footer-nav-list li a, .footer-wrapper span, .forgot-password {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #bababa;
+    text-decoration: none;
+}
+
+.forgot-password {
+    color: #4A4A4A;
+}
+
+/*DASHBOARD ELEMENTS*/
+.dash-h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 36px;
+}
+
+.dash-label, .input-data, .navigators, .filter-category, .delete-account, .filter-label,
+.apply-filter, .health-indicator-wrapper span, #datepicker {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.apply-filter {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-button {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.category {
+    color: #1999A9;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.description, .execute-delete {
+    font-size: 14px;
+    line-height: 1.75;
+    color: #bababa;
+}
+
+.nutrition-post .description {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 9px;
+}
+
+.go-back {
+    text-decoration: none;
+    font-family: europa, sans-serif;
+    color: #37757D;
+    text-transform: uppercase;
+}
+
+.go-back i {
+    font-size: 14.4px;
+    padding-right: 9px;
+}
+
+.delete-account, .cancel-delete {
+    color: #DC5E37;
+}
+
+.deletion-text {
+    font-size: 18px;
+}
+
+.execute-delete, .cancel-delete {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.responsive-menu ul li a, .responsive, .start {
+    text-decoration: none;
+    font-size: 6.3vh;
+    text-align: center;
+    color: #232323;
+}
+
+.policy li {
+    list-style: initial;
+}
+
+.policy ul{
+    padding-left: 36px;
+}

@@ -1,0 +1,93 @@
+/*WIDTH*/
+@media all and (max-width: 1180px) {
+    .nav-wrapper { /*Navigation padding*/
+        max-width: 100%;
+    }
+
+    .header-nav {
+        padding: 0 50px;
+    }
+}
+
+@media all and (max-width: 499px) {
+    .menu-wrapper{
+        padding: 22.4px 18px;
+    }
+    .header-nav{
+        padding: 0 9px;
+    }
+
+    .main-section {
+        padding: 45px 9px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .footer-nav-list li { /* Footer Navigation*/
+        display: block;
+        padding: 9px;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .cta-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .in-cta, .out-cta {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .in-cta {
+        margin: 0;
+    }
+
+    .out-cta {
+        margin-top: 9px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .header-nav {
+        padding: 0 9px;
+    }
+}
+
+@media all and (min-height: 0px) and (max-height: 360px) {
+    .main-section {
+        padding: 63px 9px;
+    }
+}
+
+
+/*BlackBerry Z30*/
+@media all and (max-height: 640px) and (max-width: 360px) {
+    .main, .main-section {
+        min-height: 144vh;
+    }
+
+    .form {
+        height: 702px;
+        padding: 18px 14.4px;
+    }
+}
+
+/*iPhone 4*/
+@media all and (max-height: 480px) and (max-width: 320px) {
+    .main, .main-section {
+        min-height: 180vh;
+    }
+
+    .form {
+        height: 702px;
+        padding: 18px 14.4px;
+    }
+}

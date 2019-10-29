@@ -1,0 +1,25 @@
+*{
+    display: none;
+}
+
+.internet-explorer{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+}
+
+.ie-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ie-wrapper a{
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
