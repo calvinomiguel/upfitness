@@ -65,11 +65,8 @@ Internet Explorer was purposely excluded, due to time reasons. Might work on it 
 
 ## Known issues
 __#Issue 1__  
-The pikaday JS calendar doesn't really work properly on the Safari browser. If you
-want to enter a date on safari, you'll need to type the date manually (Format: dd/mm/yy)
-or click the input field and stay with the mouse down and scroll to the calendar. If
-you let the mouse key go up before you reach the calendar, the calendar disappears.
----
+The pikaday JS calendar doesn't really work properly on the Safari browser. If you want to enter a date on safari, you'll need to type the date manually (Format: dd/mm/yy)or click the input field and stay with the mouse down and scroll to the calendar. Ifyou let the mouse key go up before you reach the calendar, the calendar disappears.
+
 __#Issue 2__  
 I noticed that sometimes it's not possible to sign-up. I'm not sure yet why this is happening,
 but what always helped me, was restarting my local server (I'm using MAMP 5.0.1).  
